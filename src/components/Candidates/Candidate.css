@@ -1,0 +1,47 @@
+.candidates {
+  margin: 1rem;
+}
+
+.candidates h2 {
+  text-align: center;
+}
+
+.candidates .controls {
+  text-align: center;
+}
+
+.candidates .searchBox {
+  margin: 1rem;
+  display: inline-block;
+}
+
+.candidateParent {
+  cursor: pointer;
+  display: inline-block;
+  width: 25%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  height: 12rem;
+}
+
+.candidateCard {
+  height: 100%;
+  text-align: center;
+  background: springgreen;
+  border: 1px solid burlywood;
+  border-radius: 1rem;
+}
+
+.candidateCard img {
+  height: 70%;
+  width: 50%;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  border-radius: 20%;
+  font-weight: 300;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,25 @@
+button {
+  margin: 0.5rem 0.2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: fit-content;
+}
+
+button:active {
+  background: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 16px;
+  outline: none;
+  font: inherit;
+}
+
+input[type="text"]::placeholder {
+  padding: 0.5rem;
+}

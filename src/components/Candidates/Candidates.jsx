@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Candidate from "./Candidate";
-import Search from "./Search";
+import Search from "../Common/Search";
 import { useHistory } from "react-router-dom";
 
 const Candidates = (props) => {
@@ -33,10 +33,11 @@ const Candidates = (props) => {
   }, []);
 
   return (
-    <div>
+    <div className="candidates">
+      <h2>All Candidates</h2>
       {!!candidates.length && (
         <>
-          <div>
+          <div className="controls">
             <Search searchText={searchText} onChange={onChange} />
             <button type="button" onClick={onShowShortlistedCandidates}>
               Show Shortlisted Candidates

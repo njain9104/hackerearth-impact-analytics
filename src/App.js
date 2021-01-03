@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Route, Switch, useHistory } from "react-router-dom";
+import Candidates from "./components/Candidates/Candidates";
+import CurrentCandidate from "./components/Candidates/CurrentCandidate";
+import SelectedCandidates from "./components/Candidates/SelectedCandidates";
 import "./App.css";
-import Candidates from "./Candidates/Candidates";
-import CurrentCandidate from "./Candidates/CurrentCandidate";
-import SelectedCandidates from "./Candidates/SelectedCandidates";
+import "./components/Common/Common.css";
 
 const App = () => {
   const history = useHistory();

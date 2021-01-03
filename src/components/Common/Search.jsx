@@ -4,7 +4,7 @@ const Search = (props) => {
   const { searchText, onChange } = props;
 
   return (
-    <div>
+    <div className="searchBox">
       <input
         id="searchText"
         type="text"

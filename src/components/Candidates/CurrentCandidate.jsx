@@ -1,7 +1,7 @@
 import React from "react";
 import CandidateCard from "./CandidateCard";
 import "./Candidate.css";
-import BackButton from "./BackButton";
+import BackButton from "../Common/BackButton";
 
 const CurrentCandidate = (props) => {
   const {
