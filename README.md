@@ -1,6 +1,10 @@
-# cra-skeleton
+# Impact Analytics Challenge
 
-CRA Skeleton
+A portal for recruiters to view the Candidates who have applied for job. Features of this challenge includes to search the candidates, shortlist and reject candidates and to view shortlisted and rejected candidates
+
+# Deployed URL
+
+https://hackerearth-impact-analytics.netlify.app/
 
 # Getting Started with Create React App
 
